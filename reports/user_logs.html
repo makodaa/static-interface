@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Reports</title>
+        <link rel="stylesheet" href="dashboard.css" />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+        />
+    </head>
+    <body>
+        <div class="container-fluid overflow-hidden">
+            <div class="row vh-100 overflow-auto">
+                <div class="col-2 px-0 d-flex sticky-top bg-dark text-white">
+                    <div
+                        class="d-flex flex-column flex-grow-1 align-items-start px-3 pt-3 text-white"
+                    >
+                        <div class="row align-items-center mb-2">
+                            <div class="col-auto me-auto fa-2x">
+                                <i class="fa-solid fa-boxes-stacked"></i>
+                            </div>
+                            <div class="col-auto">
+                                <div class="row">
+                                    <span class="fs-5">Silangan</span>
+                                </div>
+                                <div class="row">
+                                    <span class="p">Prodct Management</span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <ul class="nav nav-pills flex-column mb-auto col-12">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white">
+                                    Sales
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white">
+                                    Expenses
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white">
+                                    Products
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white">
+                                    Maintenance
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">
+                                    Reports
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white">
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white">
+                                    Help
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col d-flex p-3 flex-column">
+                    <main class="d-flex flex-column overflow-hidden">
+                        <div class="d-flex flex-row mb-3">
+                            <span class="fs-4">
+                                <i class="fa-solid fa-arrow-left me-3"></i>
+                                User Logs
+                            </span>
+                        </div>
+                        <div class="d-flex flex-row justify-content-end mb-3">
+                            <button class="btn btn-primary">
+                                Print Report
+                            </button>
+                        </div>
+                        <div class="card text-dark bg-light mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">
+                                    Sales by Product Report
+                                </h5>
+                                <p class="card-text text-center">
+                                    East Hardware
+                                </p>
+                                <table class="table border-top">
+                                    <thead class="thead-light">
+                                        <tr>
+                                            <th
+                                                scope="col bg-light"
+                                                class="bg-light"
+                                            >
+                                                User
+                                            </th>
+                                            <th scope="col" class="bg-light">
+                                                Event
+                                            </th>
+                                            <th scope="col" class="bg-light">
+                                                Datetime
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Admin</td>
+                                            <td>
+                                                Registered Boysen Paint as
+                                                Product
+                                            </td>
+                                            <td>November 15, 2024 9:18AM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Admin</td>
+                                            <td>
+                                                Registered Davies Paint as
+                                                Product
+                                            </td>
+                                            <td>November 15, 2024 9:16AM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Admin</td>
+                                            <td>
+                                                Registered Rain or Shine Paint
+                                                as Product
+                                            </td>
+                                            <td>November 15, 2024 9:12AM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Staff Hailey</td>
+                                            <td>Created Invoice # 987</td>
+                                            <td>November 14, 2024 1:32PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Staff Hailey</td>
+                                            <td>Created Invoice # 986</td>
+                                            <td>November 14, 2024 12:45PM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Staff Hailey</td>
+                                            <td>Created Invoice # 985</td>
+                                            <td>November 14, 2024 11:59AM</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Admin</td>
+                                            <td>Archived LED Sign Product</td>
+                                            <td>November 14, 2024 9:12AM</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="card-text text-end">
+                                    << Page 1 of 4 >>
+                                </p>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

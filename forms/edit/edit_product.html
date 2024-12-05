@@ -20,7 +20,7 @@
             <div class="row p-3 border-bottom">
                 <span class="fs-4">
                     <i class="fa-solid fa-arrow-left me-3"></i>
-                    Create new Product
+                    Edit Product
                 </span>
             </div>
             <div class="row row-cols-2 flex-grow-1">
@@ -36,7 +36,15 @@
                                     <input type="text" class="form-control" />
                                 </div>
                                 <div class="col flex-column">
-                                    <label class="">Category*</label>
+                                    <label class=""
+                                        >Stock Keeping Unit (SKU)</label
+                                    >
+                                    <input type="text" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="row row-cols-2 mb-2">
+                                <div class="col flex-column">
+                                    <label class="">Product Category*</label>
                                     <input type="text" class="form-control" />
                                 </div>
                             </div>
@@ -79,6 +87,16 @@
                                     <input type="text" class="form-control" />
                                 </div>
                             </div>
+                            <div class="row row-cols-2 mb-2">
+                                <div class="col flex-column">
+                                    <label class="">Unit</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="col flex-column">
+                                    <label class="">Main unit equivalent</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                            </div>
                             <button
                                 type="button"
                                 class="btn btn-outline-success"
@@ -89,9 +107,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col d-flex flex-column border-start flex-grow-1">
-                    <div class="p-3 d-flex flex-column h-100 flex-grow-1">
-                        <div>
+                <div class="col d-flex flex-column border-start">
+                    <div class="p-3 d-flex flex-column flex-fill">
+                        <div class="">
                             <div class="row mb-2">
                                 <span class="fs-5">Sale Information</span>
                             </div>
@@ -103,30 +121,23 @@
                             </div>
                         </div>
                         <hr />
-                        <div class="flex-grow-1">
-                            <div class="row mb-2">
-                                <span class="fs-5">Purchase Information</span>
+                        <div class="row mb-2">
+                            <span class="fs-5">Purchase Information</span>
+                        </div>
+                        <div class="row row-cols-2 mb-2">
+                            <div class="col-12 flex-column">
+                                <label class="">Restock Cost</label>
+                                <input type="text" class="form-control" />
                             </div>
-                            <div class="row row-cols-2 mb-2">
-                                <div class="col-12 flex-column">
-                                    <label class="">Restock Cost</label>
-                                    <input type="text" class="form-control" />
-                                </div>
-                            </div>
-                            <div class="row flex-grow-1 flex-fill"></div>
-                            <div
-                                class="row mb-2 justify-content-end flex-grow-1 flex-fill"
-                            >
-                                <div
-                                    class="d-flex justify-content-end flex-grow-1 flex-fill"
-                                >
-                                    <button class="btn btn-primary me-3">
-                                        Cancel
-                                    </button>
-                                    <button class="btn btn-primary">
-                                        Create
-                                    </button>
-                                </div>
+                        </div>
+                        <div
+                            class="row d-flex flex-column flex-fill mb-2 align-items-end justify-content-end"
+                        >
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary me-3">
+                                    Cancel
+                                </button>
+                                <button class="btn btn-primary">Save</button>
                             </div>
                         </div>
                     </div>
